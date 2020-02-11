@@ -426,4 +426,31 @@ If the owner is willing to continue participating, a manual process (off-chain g
 [bibliography]
 == References
 
-include::bibliography.adoc[]
+* [[[Navarro2018, Navarro2018]]] L. Navarro. _Network infrastructures: The commons model for local participation, governance and sustainability_. 2018
+
+* [[[Ostrom1990, Ostrom1990]]] E. Ostrom. _Governing the Commons: The Evolution of Institutions for Collective Action_. 1990
+
+* [[[Buterin2014, Buterin2014]]] V. Buterin. _On sharding blockchains_. 2014
+
+* [[[Hardin1968, Hardin1968]]] G. Hardin. _The Tragedy of the Commons_. 1968
+
+* [[[DavidsonEtAl2016, DavidsonEtAl2016]]] S. Davidson, P. De Filippi etAl. _Disrupting Governance: The New Institutional Economics of Distributed Ledger Technology_. 2016
+
+* [[[RozasEtAl2018, RozasEtAl2018]]] D. Rozas, A. Tenorio-Fornés etAl. _When Ostrom Meets Blockchain: Exploring the Potentials of Blockchain for Commons Governance_. 2018
+
+* [[[CachinVukolic2017, CachinVukolic2017]]] C. Cachin and M. Vukolić. _Blockchain Consensus Protocols in the Wild_. 2017
+
+* [[[NguyenKim2018, NguyenKim2018]]] G. Nguyen and K. Kim. _A Survey about Consensus Algorithms Used in Blockchain_. 2018
+
+* [[[MackenzieEtAl2018, MackenzieEtAl2018]]] B. Mackenzie, X. Bellekens etAl. _An Assessment of Blockchain Consensus Protocols for the Internet of Things_. 2018
+
+* [[[Cachin2017, Cachin2017]]] C. Cachin. _Blockchains and Consensus Protocols: Snake Oil Warning_. 2017
+
+* [[[Shi2018, Shi2018]]] E. Shi. _Analysis of Deterministic Longest-Chain Protocols_. 2018
+
+* [[[CastroLiskov1999, CastroLiskov1999]]] M. Castro and B. Liskov. _Practical Byzantine Fault tolerance_. 1999
+
+* [[[Saltini2019, Saltini2019]]] R. Saltini. _Correctness Analysis of IBFT_. 2019
+
+* [[[CastroLiskov2002, CastroLiskov2002]]] M. Castro and B. Liskov. _Practical Byzantine Fault Tolerance and Proactive Recovery_. 2002
+
