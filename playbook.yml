@@ -1,5 +1,5 @@
 site:
-  title: Some Ramblings
+  title: Jesus Ruiz - digressions on blockchains
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://hesusruiz.github.io/digressions
   start_page: digressions::publicpermissioned.adoc
@@ -12,4 +12,11 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  supplemental_files: ./supplemental-ui
+  supplemental_files:
+  - path: ./supplemental-ui
+  - path: .nojekyll
+  - path: ui.yml
+    contents: "static_files: [ .nojekyll ]"
+
+output:
+  dir: ./public
