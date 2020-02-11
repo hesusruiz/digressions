@@ -1,0 +1,15 @@
+site:
+  title: Some Ramblings
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://hesusruiz.github.io/digressions
+  start_page: digressions::publicpermissioned.adoc
+content:
+  sources:
+    - url: ./
+    start_path: docs
+    branches: [HEAD]
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui

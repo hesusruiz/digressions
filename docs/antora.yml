@@ -1,0 +1,6 @@
+name: digressions
+title: Some digressions
+version: 1.0.0
+start_page: ROOT:publicpermissioned.adoc
+nav:
+- modules/ROOT/nav.adoc
