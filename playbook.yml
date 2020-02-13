@@ -1,8 +1,8 @@
 site:
-  title: Jesus Ruiz - digressions on blockchains
+  title: Jesus Ruiz // reflections on blockchains
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://hesusruiz.github.io/digressions
-  start_page: digressions::publicpermissioned.adoc
+  start_page: blockchain::publicpermissioned.adoc
 content:
   sources:
     - url: ./
