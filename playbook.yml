@@ -4,8 +4,10 @@ site:
   url: https://hesusruiz.github.io/digressions
   start_page: blockchain::publicpermissioned.adoc
 content:
+  edit_url: 'perico'
   sources:
-    - url: ./.git
+    - url: ./
+      edit_url: 'perico'
       start_path: src
       branches: [HEAD]
 ui:
