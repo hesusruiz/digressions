@@ -1,14 +1,20 @@
-= Public-Permissioned blockchains and Common-Pool Resources
+= Public-Permissioned blockchains as Common-Pool Resources
 :title-separator: ;
+// Metadata:
 :author: Jesus Ruiz
 :email: hesus.ruiz@gmail.com
 :revnumber: 0.2 
 :revdate: 04-02-2020
+// Settings:
+:icons: font
 :reproducible:
 :sectnums:
+:imagesdir: ../images
 :xrefstyle: short
 :stem:
-:toc:
+:pdf-theme: jesus-theme.yml
+// :toc:
+// Refs:
 
 ifdef::backend-pdf[]
 {author} - {email} - Version {revnumber}, {revdate}
@@ -18,7 +24,7 @@ endif::backend-pdf[]
 [abstract]
 == Abstract
 
-For many, using together the words _Public_ and _Permissioned_ when referring to a blockchain network, as in Public-Permissioned Blockchain, is a misnomer.
+For many, using together the words *Public* and *Permissioned* when referring to a blockchain network, as in *Public-Permissioned Blockchain*, is a misnomer.
 Until now the words _Public_ and _Permissioned_ have been used as opposites, where _Permissioned_ is seen as synonymous with _Private_.
 However, a new kind of blockchain network is emerging, being pioneered by https://alastria.io/[Alastria].
 *Public-Permissioned* blockchain networks bring a lot of value to the digitization of the productive economy of a country or a region like the European Union, complementing - but not replacing - the other types of networks, namely Public-Permissionless and Private-Permissioned (aka Private Consortiums).
