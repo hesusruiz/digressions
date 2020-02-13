@@ -4,8 +4,9 @@ site:
   url: https://hesusruiz.github.io/reflections
   start_page: blockchain::publicpermissioned.adoc
 content:
+  edit_url: false
   sources:
-    - url: ./.git
+    - url: ./
       start_path: src
       branches: [HEAD]
 ui:
