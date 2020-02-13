@@ -1,2 +1,1 @@
-# digressions
- Some digressions
+# Reflections on blockchains
