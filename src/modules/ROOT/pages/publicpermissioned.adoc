@@ -399,7 +399,7 @@ In addition, governance of the consensus set is critical to the level of trust t
 
 The current Alastria network, Red T, uses _Istanbul Byzantine Fault Tolerance_ (IBFT) as consensus algorithm, which belongs to a family of PBFT consensus algorithms sharing many of the properties heavily discussed and formally proven during the last decades <<CastroLiskov1999>>, and its properties are very well known.
 
-When applied to the blockchain, the PBFT variants comply with the *Robustness property* <<Saltini2019>> when the maximum number of Byzantine validator nodes *t* follows the well-known relationship with *n*, the total number of validator nodes: 
+When applied to the blockchain, the PBFT variants comply with the *Robustness property* <<SaltiniHyland-Wood2019>> when the maximum number of Byzantine validator nodes *t* follows the well-known relationship with *n*, the total number of validator nodes: 
 
 *n = 3t + 1*.
 
@@ -467,5 +467,5 @@ If the owner is willing to continue participating, a manual process (off-chain g
 
 * [[[CastroLiskov1999, CastroLiskov1999]]] M. Castro and B. Liskov. _Practical Byzantine Fault tolerance_. 1999
 
-* [[[Saltini2019, Saltini2019]]] R. Saltini. _Correctness Analysis of IBFT_. 2019
+* [[[SaltiniHyland-Wood2019, SaltiniHyland-Wood2019]]] R. Saltini and D. Hyland-Wood. _IBFT 2.0: A Safe and Live Variation of the IBFT Blockchain Consensus Protocol for Eventually Synchronous Networks_. 2019
 
