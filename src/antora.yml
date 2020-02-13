@@ -1,6 +1,6 @@
 name: blockchain
 title: Blockchain
-version: 1.0.0
+version: 1.0
 start_page: ROOT:publicpermissioned.adoc
 nav:
 - modules/ROOT/nav.adoc
