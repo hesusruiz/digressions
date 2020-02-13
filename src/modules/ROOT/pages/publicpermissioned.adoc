@@ -359,7 +359,7 @@ This lower limit has been proven by the scientific community to be the theoretic
 There are many factors that can affect the efficiency and performance of a consensus algorithm.
 However, one of the most critical factors for a resilient Byzantine consensus, especially on a wide-area network, is the total number of messages exchanged among the consensus nodes in order to achieve agreement.
 
-It is known that deterministic resiliency-optimal Byzantine consensus protocols cannot use less than three communication steps [5], [6]. This means that latency-optimal protocols for BFT consensus that use 3f + 1 nodes to tolerate f Byzantine faults (e.g., PBFT [7]) require at least three communication steps for the consensus (without taking into account the messages required for the client to inject the transaction into the network, the propagation of the transaction across the network and the reception of the reply).
+It is known that deterministic resiliency-optimal Byzantine consensus protocols cannot use less than three communication steps <<DuttaEtAl2005>>, <<MartinAlvisi2006>>. This means that latency-optimal protocols for BFT consensus that use 3f + 1 nodes to tolerate f Byzantine faults (e.g., PBFT <<CastroLiskov2002>>) require at least three communication steps for the consensus (without taking into account the messages required for the client to inject the transaction into the network, the propagation of the transaction across the network and the reception of the reply).
 
 ==== Energy efficient, computationally-optional and sustainable
 
@@ -453,9 +453,13 @@ If the owner is willing to continue participating, a manual process (off-chain g
 
 * [[[Shi2018, Shi2018]]] E. Shi. _Analysis of Deterministic Longest-Chain Protocols_. 2018
 
+* [[[DuttaEtAl2005, DuttaEtAl2005]]] P. Dutta, R. Guerraoui etAl. _Best-case complexity of asynchronous Byzantine consensus_. 2005
+
+* [[[MartinAlvisi2006, MartinAlvisi2006]]] J. Martin and L. Alvisi. _Fast byzantine consensus_. 2006
+
+* [[[CastroLiskov2002, CastroLiskov2002]]] M. Castro and B. Liskov. _Practical Byzantine Fault Tolerance and Proactive Recovery_. 2002
+
 * [[[CastroLiskov1999, CastroLiskov1999]]] M. Castro and B. Liskov. _Practical Byzantine Fault tolerance_. 1999
 
 * [[[Saltini2019, Saltini2019]]] R. Saltini. _Correctness Analysis of IBFT_. 2019
-
-* [[[CastroLiskov2002, CastroLiskov2002]]] M. Castro and B. Liskov. _Practical Byzantine Fault Tolerance and Proactive Recovery_. 2002
 

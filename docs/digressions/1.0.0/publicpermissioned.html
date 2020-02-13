@@ -620,7 +620,7 @@ Objectives defined in the operational policies of the network).</p></td>
 However, one of the most critical factors for a resilient Byzantine consensus, especially on a wide-area network, is the total number of messages exchanged among the consensus nodes in order to achieve agreement.</p>
 </div>
 <div class="paragraph">
-<p>It is known that deterministic resiliency-optimal Byzantine consensus protocols cannot use less than three communication steps [5], [6]. This means that latency-optimal protocols for BFT consensus that use 3f + 1 nodes to tolerate f Byzantine faults (e.g., PBFT [7]) require at least three communication steps for the consensus (without taking into account the messages required for the client to inject the transaction into the network, the propagation of the transaction across the network and the reception of the reply).</p>
+<p>It is known that deterministic resiliency-optimal Byzantine consensus protocols cannot use less than three communication steps <a href="#DuttaEtAl2005">[DuttaEtAl2005]</a>, <a href="#MartinAlvisi2006">[MartinAlvisi2006]</a>. This means that latency-optimal protocols for BFT consensus that use 3f + 1 nodes to tolerate f Byzantine faults (e.g., PBFT <a href="#CastroLiskov2002">[CastroLiskov2002]</a>) require at least three communication steps for the consensus (without taking into account the messages required for the client to inject the transaction into the network, the propagation of the transaction across the network and the reception of the reply).</p>
 </div>
 </div>
 <div class="sect3">
@@ -754,13 +754,19 @@ If the owner is willing to continue participating, a manual process (off-chain g
 <p><a id="Shi2018"></a>[Shi2018] E. Shi. <em>Analysis of Deterministic Longest-Chain Protocols</em>. 2018</p>
 </li>
 <li>
+<p><a id="DuttaEtAl2005"></a>[DuttaEtAl2005] P. Dutta, R. Guerraoui etAl. <em>Best-case complexity of asynchronous Byzantine consensus</em>. 2005</p>
+</li>
+<li>
+<p><a id="MartinAlvisi2006"></a>[MartinAlvisi2006] J. Martin and L. Alvisi. <em>Fast byzantine consensus</em>. 2006</p>
+</li>
+<li>
+<p><a id="CastroLiskov2002"></a>[CastroLiskov2002] M. Castro and B. Liskov. <em>Practical Byzantine Fault Tolerance and Proactive Recovery</em>. 2002</p>
+</li>
+<li>
 <p><a id="CastroLiskov1999"></a>[CastroLiskov1999] M. Castro and B. Liskov. <em>Practical Byzantine Fault tolerance</em>. 1999</p>
 </li>
 <li>
 <p><a id="Saltini2019"></a>[Saltini2019] R. Saltini. <em>Correctness Analysis of IBFT</em>. 2019</p>
-</li>
-<li>
-<p><a id="CastroLiskov2002"></a>[CastroLiskov2002] M. Castro and B. Liskov. <em>Practical Byzantine Fault Tolerance and Proactive Recovery</em>. 2002</p>
 </li>
 </ul>
 </div>
